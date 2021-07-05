@@ -20,7 +20,7 @@ export const SIZES = {
     radius: 12,
     padding: 24,
 
-    largeTitle: 50,
+    largeTitle: 40,
     h1: 30,
     h2: 22,
     h3: 16,
@@ -43,6 +43,7 @@ export const FONTS = {
     body2: { fontSize: SIZES.body2, lineHeight: 30, fontWeight: '600'},
     body3: { fontSize: SIZES.body3, lineHeight: 22, fontWeight: '500'},
     body4: { fontSize: SIZES.body4, lineHeight: 22, fontWeight: '400'},
+    largeTitle: { fontSize: SIZES.largeTitle, lineHeight: 55, fontWeight: '800'}
 }
 const appTheme = { COLORS, SIZES, FONTS};
 
